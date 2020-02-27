@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1821E2A22407E22F00EA9381 /* StudentProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1821E2A12407E22F00EA9381 /* StudentProfileViewController.swift */; };
+		B33ADA495C3B9D51E8E3C393 /* Pods_FBLAApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF4F5B9D0B3EEC353577F98 /* Pods_FBLAApp.framework */; };
+		D50F98E523FF1AE80023BE76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50F98E423FF1AE80023BE76 /* AppDelegate.swift */; };
+		D50F98E723FF1AE80023BE76 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50F98E623FF1AE80023BE76 /* SceneDelegate.swift */; };
+		D50F98EC23FF1AE80023BE76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50F98EA23FF1AE80023BE76 /* Main.storyboard */; };
+		D50F98EF23FF1AE80023BE76 /* FBLAApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D50F98ED23FF1AE80023BE76 /* FBLAApp.xcdatamodeld */; };
+		D50F98F123FF1AEA0023BE76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D50F98F023FF1AEA0023BE76 /* Assets.xcassets */; };
+		D50F98F423FF1AEA0023BE76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50F98F223FF1AEA0023BE76 /* LaunchScreen.storyboard */; };
+		D50F98FC23FF92430023BE76 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50F98FB23FF92430023BE76 /* LoginViewController.swift */; };
+		D50F98FE23FF95980023BE76 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D50F98FD23FF95980023BE76 /* GoogleService-Info.plist */; };
+		D5204CAD24078E80008019C5 /* StudentHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5204CAC24078E80008019C5 /* StudentHomeViewController.swift */; };
+		D525804F2404A75900F50FEC /* AddAnnouncementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D525804E2404A75900F50FEC /* AddAnnouncementViewController.swift */; };
+		D52580512404ACD900F50FEC /* AnnouncementTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52580502404ACD900F50FEC /* AnnouncementTableViewCell.swift */; };
+		D566AF8F24061F110046E9D3 /* StudentsRequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D566AF8E24061F110046E9D3 /* StudentsRequestsViewController.swift */; };
+		D566AF9124061F450046E9D3 /* StudentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D566AF9024061F450046E9D3 /* StudentTableViewCell.swift */; };
+		D566AF93240626330046E9D3 /* RequestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D566AF92240626330046E9D3 /* RequestTableViewCell.swift */; };
+		D5A4F1E72406414F004320A2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A4F1E62406414F004320A2 /* Constants.swift */; };
+		D5AE0A9124071ACE008D0689 /* QRCodeChapterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AE0A9024071ACE008D0689 /* QRCodeChapterViewController.swift */; };
+		D5AE0A9324075E56008D0689 /* ChapterProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AE0A9224075E56008D0689 /* ChapterProfileViewController.swift */; };
+		D5BB3F2F2400CAAE00646B5E /* ChapterTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BB3F2E2400CAAE00646B5E /* ChapterTestViewController.swift */; };
+		D5BB3F312400CE6300646B5E /* UIDGuardedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BB3F302400CE6300646B5E /* UIDGuardedViewController.swift */; };
+		D5BB3F332400D34600646B5E /* ScanClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BB3F322400D34600646B5E /* ScanClassViewController.swift */; };
+		D5C490862402F23200595574 /* StudentViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5C490852402F23200595574 /* StudentViews.storyboard */; };
+		D5C4908A2402F24B00595574 /* ChapterViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5C490892402F24B00595574 /* ChapterViews.storyboard */; };
+		D5C4908C2402F29000595574 /* StudentRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C4908B2402F29000595574 /* StudentRequestViewController.swift */; };
+		D5C4908E2403162B00595574 /* ChapterHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C4908D2403162B00595574 /* ChapterHomeViewController.swift */; };
+		D5C4909D2403172800595574 /* EventCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C4909B2403172800595574 /* EventCollectionViewCell.swift */; };
+		D5C4909E2403172800595574 /* EventCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5C4909C2403172800595574 /* EventCollectionViewCell.xib */; };
+		D5C490A02403567800595574 /* AddEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C4909F2403567800595574 /* AddEventViewController.swift */; };
+		D5C490A2240356A900595574 /* AddMeetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C490A1240356A900595574 /* AddMeetingViewController.swift */; };
+		D5ED13322400A9E10072705C /* RegisterUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ED13312400A9E10072705C /* RegisterUserViewController.swift */; };
+		D5ED13342400AA230072705C /* RegisterChapterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ED13332400AA230072705C /* RegisterChapterViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1821E2A12407E22F00EA9381 /* StudentProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentProfileViewController.swift; sourceTree = "<group>"; };
+		A684140A77123EE66357ACA6 /* Pods-FBLAApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBLAApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBLAApp/Pods-FBLAApp.debug.xcconfig"; sourceTree = "<group>"; };
+		ADF4F5B9D0B3EEC353577F98 /* Pods_FBLAApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBLAApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1A2CCB279FD10772D2D5C0F /* Pods-FBLAApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBLAApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBLAApp/Pods-FBLAApp.release.xcconfig"; sourceTree = "<group>"; };
+		D50F98E123FF1AE80023BE76 /* FBLAApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBLAApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D50F98E423FF1AE80023BE76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D50F98E623FF1AE80023BE76 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D50F98EB23FF1AE80023BE76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D50F98EE23FF1AE80023BE76 /* FBLAApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FBLAApp.xcdatamodel; sourceTree = "<group>"; };
+		D50F98F023FF1AEA0023BE76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D50F98F323FF1AEA0023BE76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D50F98F523FF1AEA0023BE76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D50F98FB23FF92430023BE76 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D50F98FD23FF95980023BE76 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D5204CAC24078E80008019C5 /* StudentHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentHomeViewController.swift; sourceTree = "<group>"; };
+		D525804E2404A75900F50FEC /* AddAnnouncementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAnnouncementViewController.swift; sourceTree = "<group>"; };
+		D52580502404ACD900F50FEC /* AnnouncementTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementTableViewCell.swift; sourceTree = "<group>"; };
+		D566AF8E24061F110046E9D3 /* StudentsRequestsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsRequestsViewController.swift; sourceTree = "<group>"; };
+		D566AF9024061F450046E9D3 /* StudentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentTableViewCell.swift; sourceTree = "<group>"; };
+		D566AF92240626330046E9D3 /* RequestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTableViewCell.swift; sourceTree = "<group>"; };
+		D5A4F1E62406414F004320A2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D5AE0A9024071ACE008D0689 /* QRCodeChapterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeChapterViewController.swift; sourceTree = "<group>"; };
+		D5AE0A9224075E56008D0689 /* ChapterProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterProfileViewController.swift; sourceTree = "<group>"; };
+		D5BB3F2E2400CAAE00646B5E /* ChapterTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterTestViewController.swift; sourceTree = "<group>"; };
+		D5BB3F302400CE6300646B5E /* UIDGuardedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDGuardedViewController.swift; sourceTree = "<group>"; };
+		D5BB3F322400D34600646B5E /* ScanClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanClassViewController.swift; sourceTree = "<group>"; };
+		D5C490852402F23200595574 /* StudentViews.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StudentViews.storyboard; sourceTree = "<group>"; };
+		D5C490892402F24B00595574 /* ChapterViews.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChapterViews.storyboard; sourceTree = "<group>"; };
+		D5C4908B2402F29000595574 /* StudentRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentRequestViewController.swift; sourceTree = "<group>"; };
+		D5C4908D2403162B00595574 /* ChapterHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterHomeViewController.swift; sourceTree = "<group>"; };
+		D5C4909B2403172800595574 /* EventCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCollectionViewCell.swift; sourceTree = "<group>"; };
+		D5C4909C2403172800595574 /* EventCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventCollectionViewCell.xib; sourceTree = "<group>"; };
+		D5C4909F2403567800595574 /* AddEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventViewController.swift; sourceTree = "<group>"; };
+		D5C490A1240356A900595574 /* AddMeetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMeetingViewController.swift; sourceTree = "<group>"; };
+		D5ED13312400A9E10072705C /* RegisterUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUserViewController.swift; sourceTree = "<group>"; };
+		D5ED13332400AA230072705C /* RegisterChapterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterChapterViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D50F98DE23FF1AE80023BE76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B33ADA495C3B9D51E8E3C393 /* Pods_FBLAApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4047BF82045B4F3787C818D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A684140A77123EE66357ACA6 /* Pods-FBLAApp.debug.xcconfig */,
+				B1A2CCB279FD10772D2D5C0F /* Pods-FBLAApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF414CD0958264EAC05F3214 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADF4F5B9D0B3EEC353577F98 /* Pods_FBLAApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D50F98D823FF1AE80023BE76 = {
+			isa = PBXGroup;
+			children = (
+				D50F98E323FF1AE80023BE76 /* FBLAApp */,
+				D50F98E223FF1AE80023BE76 /* Products */,
+				C4047BF82045B4F3787C818D /* Pods */,
+				CF414CD0958264EAC05F3214 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D50F98E223FF1AE80023BE76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D50F98E123FF1AE80023BE76 /* FBLAApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D50F98E323FF1AE80023BE76 /* FBLAApp */ = {
+			isa = PBXGroup;
+			children = (
+				D50F98E423FF1AE80023BE76 /* AppDelegate.swift */,
+				D50F98E623FF1AE80023BE76 /* SceneDelegate.swift */,
+				D5C490842402F0DA00595574 /* LoginSignUp */,
+				D5BB3F302400CE6300646B5E /* UIDGuardedViewController.swift */,
+				D5BB3F2E2400CAAE00646B5E /* ChapterTestViewController.swift */,
+				D5204CAB24078DEF008019C5 /* Student */,
+				D525804D2404A68000F50FEC /* Chapter  */,
+				D5A4F1E62406414F004320A2 /* Constants.swift */,
+				D50F98EA23FF1AE80023BE76 /* Main.storyboard */,
+				D5C490852402F23200595574 /* StudentViews.storyboard */,
+				D5C490892402F24B00595574 /* ChapterViews.storyboard */,
+				D50F98F023FF1AEA0023BE76 /* Assets.xcassets */,
+				D50F98F223FF1AEA0023BE76 /* LaunchScreen.storyboard */,
+				D50F98F523FF1AEA0023BE76 /* Info.plist */,
+				D50F98FD23FF95980023BE76 /* GoogleService-Info.plist */,
+				D50F98ED23FF1AE80023BE76 /* FBLAApp.xcdatamodeld */,
+			);
+			path = FBLAApp;
+			sourceTree = "<group>";
+		};
+		D5204CAB24078DEF008019C5 /* Student */ = {
+			isa = PBXGroup;
+			children = (
+				1821E2A12407E22F00EA9381 /* StudentProfileViewController.swift */,
+				D5C4908B2402F29000595574 /* StudentRequestViewController.swift */,
+				D5204CAC24078E80008019C5 /* StudentHomeViewController.swift */,
+			);
+			path = Student;
+			sourceTree = "<group>";
+		};
+		D525804D2404A68000F50FEC /* Chapter  */ = {
+			isa = PBXGroup;
+			children = (
+				D5C4908D2403162B00595574 /* ChapterHomeViewController.swift */,
+				D5AE0A8C2407193C008D0689 /* CenterHomeSupportFiles */,
+				D566AF8E24061F110046E9D3 /* StudentsRequestsViewController.swift */,
+				D5AE0A8D2407195E008D0689 /* StudentsRequestsSupportFiles */,
+				D5AE0A9024071ACE008D0689 /* QRCodeChapterViewController.swift */,
+				D5AE0A9224075E56008D0689 /* ChapterProfileViewController.swift */,
+			);
+			path = "Chapter ";
+			sourceTree = "<group>";
+		};
+		D5AE0A8C2407193C008D0689 /* CenterHomeSupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D5C4909F2403567800595574 /* AddEventViewController.swift */,
+				D5C490A1240356A900595574 /* AddMeetingViewController.swift */,
+				D525804E2404A75900F50FEC /* AddAnnouncementViewController.swift */,
+				D52580502404ACD900F50FEC /* AnnouncementTableViewCell.swift */,
+				D5C4909B2403172800595574 /* EventCollectionViewCell.swift */,
+				D5C4909C2403172800595574 /* EventCollectionViewCell.xib */,
+			);
+			path = CenterHomeSupportFiles;
+			sourceTree = "<group>";
+		};
+		D5AE0A8D2407195E008D0689 /* StudentsRequestsSupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D566AF9024061F450046E9D3 /* StudentTableViewCell.swift */,
+				D566AF92240626330046E9D3 /* RequestTableViewCell.swift */,
+			);
+			path = StudentsRequestsSupportFiles;
+			sourceTree = "<group>";
+		};
+		D5C490842402F0DA00595574 /* LoginSignUp */ = {
+			isa = PBXGroup;
+			children = (
+				D50F98FB23FF92430023BE76 /* LoginViewController.swift */,
+				D5ED13312400A9E10072705C /* RegisterUserViewController.swift */,
+				D5ED13332400AA230072705C /* RegisterChapterViewController.swift */,
+				D5BB3F322400D34600646B5E /* ScanClassViewController.swift */,
+			);
+			path = LoginSignUp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D50F98E023FF1AE80023BE76 /* FBLAApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D50F98F823FF1AEA0023BE76 /* Build configuration list for PBXNativeTarget "FBLAApp" */;
+			buildPhases = (
+				1AC74CFAC5ED128F6FB23DA2 /* [CP] Check Pods Manifest.lock */,
+				D50F98DD23FF1AE80023BE76 /* Sources */,
+				D50F98DE23FF1AE80023BE76 /* Frameworks */,
+				D50F98DF23FF1AE80023BE76 /* Resources */,
+				FE4452047AFEBEA869AC9A81 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBLAApp;
+			productName = FBLAApp;
+			productReference = D50F98E123FF1AE80023BE76 /* FBLAApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D50F98D923FF1AE80023BE76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Shashank Venkatramani";
+				TargetAttributes = {
+					D50F98E023FF1AE80023BE76 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = D50F98DC23FF1AE80023BE76 /* Build configuration list for PBXProject "FBLAApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D50F98D823FF1AE80023BE76;
+			productRefGroup = D50F98E223FF1AE80023BE76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D50F98E023FF1AE80023BE76 /* FBLAApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D50F98DF23FF1AE80023BE76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50F98F423FF1AEA0023BE76 /* LaunchScreen.storyboard in Resources */,
+				D50F98FE23FF95980023BE76 /* GoogleService-Info.plist in Resources */,
+				D50F98F123FF1AEA0023BE76 /* Assets.xcassets in Resources */,
+				D5C4908A2402F24B00595574 /* ChapterViews.storyboard in Resources */,
+				D5C4909E2403172800595574 /* EventCollectionViewCell.xib in Resources */,
+				D5C490862402F23200595574 /* StudentViews.storyboard in Resources */,
+				D50F98EC23FF1AE80023BE76 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AC74CFAC5ED128F6FB23DA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FBLAApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE4452047AFEBEA869AC9A81 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FBLAApp/Pods-FBLAApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBLAApp/Pods-FBLAApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D50F98DD23FF1AE80023BE76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D525804F2404A75900F50FEC /* AddAnnouncementViewController.swift in Sources */,
+				D5BB3F2F2400CAAE00646B5E /* ChapterTestViewController.swift in Sources */,
+				D5C490A02403567800595574 /* AddEventViewController.swift in Sources */,
+				D5C4909D2403172800595574 /* EventCollectionViewCell.swift in Sources */,
+				D5C4908E2403162B00595574 /* ChapterHomeViewController.swift in Sources */,
+				D566AF93240626330046E9D3 /* RequestTableViewCell.swift in Sources */,
+				D566AF9124061F450046E9D3 /* StudentTableViewCell.swift in Sources */,
+				D5C490A2240356A900595574 /* AddMeetingViewController.swift in Sources */,
+				D5AE0A9124071ACE008D0689 /* QRCodeChapterViewController.swift in Sources */,
+				D5ED13322400A9E10072705C /* RegisterUserViewController.swift in Sources */,
+				D5204CAD24078E80008019C5 /* StudentHomeViewController.swift in Sources */,
+				D50F98FC23FF92430023BE76 /* LoginViewController.swift in Sources */,
+				1821E2A22407E22F00EA9381 /* StudentProfileViewController.swift in Sources */,
+				D52580512404ACD900F50FEC /* AnnouncementTableViewCell.swift in Sources */,
+				D50F98E523FF1AE80023BE76 /* AppDelegate.swift in Sources */,
+				D50F98EF23FF1AE80023BE76 /* FBLAApp.xcdatamodeld in Sources */,
+				D5C4908C2402F29000595574 /* StudentRequestViewController.swift in Sources */,
+				D566AF8F24061F110046E9D3 /* StudentsRequestsViewController.swift in Sources */,
+				D5AE0A9324075E56008D0689 /* ChapterProfileViewController.swift in Sources */,
+				D5A4F1E72406414F004320A2 /* Constants.swift in Sources */,
+				D50F98E723FF1AE80023BE76 /* SceneDelegate.swift in Sources */,
+				D5BB3F312400CE6300646B5E /* UIDGuardedViewController.swift in Sources */,
+				D5BB3F332400D34600646B5E /* ScanClassViewController.swift in Sources */,
+				D5ED13342400AA230072705C /* RegisterChapterViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D50F98EA23FF1AE80023BE76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D50F98EB23FF1AE80023BE76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D50F98F223FF1AEA0023BE76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D50F98F323FF1AEA0023BE76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D50F98F623FF1AEA0023BE76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D50F98F723FF1AEA0023BE76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D50F98F923FF1AEA0023BE76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A684140A77123EE66357ACA6 /* Pods-FBLAApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4R484PGFUQ;
+				INFOPLIST_FILE = FBLAApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cvenkatramani.FBLAApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D50F98FA23FF1AEA0023BE76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1A2CCB279FD10772D2D5C0F /* Pods-FBLAApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4R484PGFUQ;
+				INFOPLIST_FILE = FBLAApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cvenkatramani.FBLAApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D50F98DC23FF1AE80023BE76 /* Build configuration list for PBXProject "FBLAApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D50F98F623FF1AEA0023BE76 /* Debug */,
+				D50F98F723FF1AEA0023BE76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D50F98F823FF1AEA0023BE76 /* Build configuration list for PBXNativeTarget "FBLAApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D50F98F923FF1AEA0023BE76 /* Debug */,
+				D50F98FA23FF1AEA0023BE76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D50F98ED23FF1AE80023BE76 /* FBLAApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D50F98EE23FF1AE80023BE76 /* FBLAApp.xcdatamodel */,
+			);
+			currentVersion = D50F98EE23FF1AE80023BE76 /* FBLAApp.xcdatamodel */;
+			path = FBLAApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D50F98D923FF1AE80023BE76 /* Project object */;
+}
